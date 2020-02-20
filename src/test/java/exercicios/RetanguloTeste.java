@@ -1,6 +1,5 @@
 package exercicios;
 
-import exemplos.Quadrado;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -41,5 +40,4 @@ public class RetanguloTeste {
         Double valorObtido = r1.calcularPerimetro();
         assertEquals(valorEsperado, valorObtido);
     }
-}
 }
