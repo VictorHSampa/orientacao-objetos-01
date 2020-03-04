@@ -2,15 +2,13 @@ package exercicios;
 
 public class Circulo {
     public Double raio;
-    public Double pi = 3.14;
 
     public Double calculaArea() {
 
-        return pi*(raio*raio);
+        return 3.0*(raio*raio);
     }
 
-    public Double calcularPerimetro() {
-
-        return (pi*raio)*2;
+    public Double calculaPerimetro() {
+        return (raio * 3.0) * 2;
     }
 }
