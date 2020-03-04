@@ -9,6 +9,6 @@ public class Circulo {
     }
 
     public Double calculaPerimetro() {
-        return (raio * 3.0) * 2;
+        return (raio * 3.0) * 2.0;
     }
 }
